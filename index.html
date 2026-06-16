@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cycle Booking Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🚴 Cycle Booking Store</h1>
+        <p>Choose Your Favourite Cycle</p>
+    </header>
+
+    <div class="container">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?w=600" alt="Mountain Bike">
+            <h3>Mountain Bike</h3>
+            <p class="price">₹15,000</p>
+            <button onclick="selectCycle('Mountain Bike')">
+                Book Now
+            </button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1511994298241-608e28f14fde?w=600" alt="Road Bike">
+            <h3>Road Bike</h3>
+            <p class="price">₹20,000</p>
+            <button onclick="selectCycle('Road Bike')">
+                Book Now
+            </button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1541625602330-2277a4c46182?w=600" alt="Hybrid Bike">
+            <h3>Hybrid Bike</h3>
+            <p class="price">₹18,000</p>
+            <button onclick="selectCycle('Hybrid Bike')">
+                Book Now
+            </button>
+        </div>
+
+    </div>
+
+    <div class="order-form">
+        <h2>Place Your Order</h2>
+
+        <input type="text" id="name" placeholder="Enter Your Name">
+
+        <input type="text" id="mobile" placeholder="Enter Mobile Number">
+
+        <select id="cycle">
+            <option value="">Select Cycle</option>
+            <option>Mountain Bike</option>
+            <option>Road Bike</option>
+            <option>Hybrid Bike</option>
+        </select>
+
+        <input type="number" id="qty" placeholder="Quantity">
+
+        <button onclick="placeOrder()">
+            Confirm Order
+        </button>
+
+        <p id="message"></p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cycle Booking Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🚴 Cycle Booking Store</h1>
+        <p>Choose Your Favourite Cycle</p>
+    </header>
+
+    <div class="container">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?w=600" alt="Mountain Bike">
+            <h3>Mountain Bike</h3>
+            <p class="price">₹15,000</p>
+            <button onclick="selectCycle('Mountain Bike')">
+                Book Now
+            </button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1511994298241-608e28f14fde?w=600" alt="Road Bike">
+            <h3>Road Bike</h3>
+            <p class="price">₹20,000</p>
+            <button onclick="selectCycle('Road Bike')">
+                Book Now
+            </button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1541625602330-2277a4c46182?w=600" alt="Hybrid Bike">
+            <h3>Hybrid Bike</h3>
+            <p class="price">₹18,000</p>
+            <button onclick="selectCycle('Hybrid Bike')">
+                Book Now
+            </button>
+        </div>
+
+    </div>
+
+    <div class="order-form">
+        <h2>Place Your Order</h2>
+
+        <input type="text" id="name" placeholder="Enter Your Name">
+
+        <input type="text" id="mobile" placeholder="Enter Mobile Number">
+
+        <select id="cycle">
+            <option value="">Select Cycle</option>
+            <option>Mountain Bike</option>
+            <option>Road Bike</option>
+            <option>Hybrid Bike</option>
+        </select>
+
+        <input type="number" id="qty" placeholder="Quantity">
+
+        <button onclick="placeOrder()">
+            Confirm Order
+        </button>
+
+        <p id="message"></p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
